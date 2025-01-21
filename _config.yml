@@ -1,6 +1,11 @@
-domain: kersanszki-levente.github.io
-url: https://kersanszki-levente.github.io
+title: while True
+email: b52H389@gmail.com
+description: >-
+  Sharing tools, ideas and investigations on software.
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kersanszki-levente.github.io"
+github_username: kersanszki-levente
 
-theme: jekyll-theme-minimal
-title: K.Levente Blog
-description: A technical blog
+theme: minima
+plugins:
+  - jekyll-feed
