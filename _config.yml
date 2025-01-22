@@ -1,12 +1,23 @@
-title: while True
+author: kersanszki-levente
+github_username: kersanszki-levente
 email: b52H389@gmail.com
+
+title: while True
 description: >-
   Sharing tools, ideas and investigations on software.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kersanszki-levente.github.io"
-github_username: kersanszki-levente
+permalink: /:year/:month/:day/:title/
+footer-links:
+  email: b52H389@gmail.com
+  github: kersanszki-levente
+  linkedin: kersanszkilevente
+  rss: feed
+sass:
+  sass_dir: _sass
+  style: :compressed
 
-remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-remote-theme
